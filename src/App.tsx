@@ -1,17 +1,12 @@
+import '@components/Navbar.css'
+import Navbar from '@components/Navbar.tsx'
+
 function App() {
   return (
     <main>
-      <h1
-        style={{
-          padding: "2rem",
-          fontFamily: "var(--font-body)",
-          fontSize: "3rem",
-        }}
-      >
-        Verde Brew Co.
-      </h1>
+      <Navbar />
     </main>
-  );
+  )
 }
 
-export default App;
+export default App
