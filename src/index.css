@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap");
+
+:root {
+  /* Colors */
+  --cream: #fffff8;
+  --black: #141414;
+  --olive: #e6e6a4;
+  --light-olive: #f5f5d6;
+  --muted-gray: #616161;
+  --white: #ffffff;
+
+  /* Fonts */
+  --font-body: "DM Sans", sans-serif;
+
+  /* Typography Scale */
+  --text-xl: 128px;
+  --text-l: 32px;
+  --text-m: 20px;
+  --text-s: 10px;
+  --text-body: 16px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--cream);
+  color: var(--black);
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-xl {
+  font-size: var(--text-xl);
+  font-weight: 600;
+  letter-spacing: -8%;
+  line-height: 88%;
+}
+
+.text-l {
+  font-size: var(--text-l);
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.text-m {
+  font-size: var(--text-m);
+  font-weight: 600;
+}
+
+.text-s {
+  font-size: var(--text-s);
+  line-height: 150%;
+}
+
+.text-body {
+  font-size: var(--text-body);
+  font-weight: 400;
+  line-height: 150%;
+}
