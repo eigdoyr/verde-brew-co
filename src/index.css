@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap');
 
 :root {
   /* Colors */
   --cream: #fffff8;
   --black: #141414;
-  --olive: #e6e6a4;
+  --olive: #9e9e4d;
   --light-olive: #f5f5d6;
   --muted-gray: #616161;
   --white: #ffffff;
 
   /* Fonts */
-  --font-body: "DM Sans", sans-serif;
+  --font-body: 'DM Sans', sans-serif;
 
   /* Typography Scale */
   --text-xl: 128px;

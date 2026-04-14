@@ -10,14 +10,14 @@ function Hero() {
       <div className="hero-overlay" />
 
       <div className="hero-content">
-        <p className="hero-tagline">
+        <p className="text-body hero-tagline">
           At Verde Brew Co., every cup tells a greener story — ethically sourced
           beans, eco-friendly practices, and a commitment to better mornings for
           you and the planet.
         </p>
       </div>
 
-      <h1 className="hero-headline">
+      <h1 className="text-xl hero-headline">
         A Greener Way <br /> to Start Your Day
       </h1>
     </section>

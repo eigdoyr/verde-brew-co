@@ -11,8 +11,6 @@
 }
 
 .navbar-logo {
-  font-family: var(--font-body);
-  font-size: 14px;
   font-weight: 500;
   color: var(--white);
 }
@@ -25,9 +23,6 @@
 }
 
 .navbar-links a {
-  font-family: var(--font-body);
-  font-size: 14px;
-  font-weight: 400;
   color: var(--white);
   transition: opacity 0.2s ease;
 }
