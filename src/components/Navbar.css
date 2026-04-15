@@ -20,6 +20,7 @@
   align-items: center;
   gap: 2.5rem;
   list-style: none;
+  max-width: 373px;
 }
 
 .navbar-links a {

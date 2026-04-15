@@ -1,0 +1,34 @@
+.about {
+  position: relative;
+  background-color: var(--cream);
+  padding: 8rem 2.5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-label {
+  color: var(--muted-gray);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  align-self: center;
+  max-width: 373px;
+  margin-left: 50%;
+}
+
+.about-wordmark {
+  font-size: clamp(64px, 10vw, var(--text-xl));
+  letter-spacing: -0.05em;
+  color: var(--black);
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+.about-description {
+  position: absolute;
+  bottom: 8rem;
+  right: 2.5rem;
+  max-width: 373px;
+  color: var(--muted-gray);
+}
