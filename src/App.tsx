@@ -4,6 +4,8 @@ import '@components/Hero.css'
 import Hero from './components/Hero'
 import '@components/About.css'
 import About from '@components/About'
+import '@components/Impact.css'
+import Impact from '@components/Impact'
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Impact />
     </main>
   )
 }
