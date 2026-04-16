@@ -6,6 +6,8 @@ import '@components/About.css'
 import About from '@components/About'
 import '@components/Impact.css'
 import Impact from '@components/Impact'
+import '@components/Menu.css'
+import Menu from '@components/Menu'
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <Hero />
       <About />
       <Impact />
+      <Menu />
     </main>
   )
 }
