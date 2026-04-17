@@ -1,5 +1,5 @@
 import { menuItems } from '@/data/menuItems'
-import MenuCard from './MenuCard'
+import MenuCard from '@components/MenuCard'
 
 function Menu() {
   return (
