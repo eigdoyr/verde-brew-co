@@ -8,6 +8,8 @@ import '@components/Impact.css'
 import Impact from '@components/Impact'
 import '@components/Menu.css'
 import Menu from '@components/Menu'
+import '@components/Experience.css'
+import Experience from '@components/Experience'
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       <About />
       <Impact />
       <Menu />
+      <Experience />
     </main>
   )
 }

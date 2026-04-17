@@ -1,0 +1,44 @@
+.experience {
+  background-color: var(--cream);
+  padding: 6rem 2.5rem;
+}
+
+.experience-heading {
+  color: var(--black);
+  margin-bottom: 3rem;
+}
+
+.experience-images {
+  position: relative;
+  width: 100%;
+  height: 640px;
+}
+
+.experience-img-main {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 55%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.experience-img-secondary {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  width: 50%;
+  height: 55%;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.experience-desc {
+  position: absolute;
+  bottom: 0;
+  left: 58%;
+  width: 32%;
+  color: var(--black);
+  z-index: 2;
+}
