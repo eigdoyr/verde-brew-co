@@ -1,7 +1,7 @@
-import impact1 from '@assets/impact-1.webp'
-import impact2 from '@assets/impact-2.webp'
-import impact3 from '@assets/impact-3.webp'
-import impact4 from '@assets/impact-4.webp'
+import impact1 from '@assets/impact/impact-1.webp'
+import impact2 from '@assets/impact/impact-2.webp'
+import impact3 from '@assets/impact/impact-3.webp'
+import impact4 from '@assets/impact/impact-4.webp'
 
 function Impact() {
   return (

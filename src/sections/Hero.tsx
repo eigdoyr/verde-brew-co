@@ -1,4 +1,4 @@
-import heroBg from '@assets/hero-bg.webp'
+import heroBg from '@assets/hero/hero-bg.webp'
 
 function Hero() {
   return (
