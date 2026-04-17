@@ -12,6 +12,8 @@ import '@components/Experience.css'
 import Experience from '@components/Experience'
 import '@components/Movement.css'
 import Movement from '@components/Movement'
+import './components/Footer.css'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
       <Menu />
       <Experience />
       <Movement />
+      <Footer />
     </main>
   )
 }
