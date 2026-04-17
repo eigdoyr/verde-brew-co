@@ -1,0 +1,37 @@
+.movement {
+  background-color: var(--cream);
+  padding: 6rem 2.5rem;
+}
+
+.movement-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: start;
+  gap: 4rem;
+}
+
+.movement-heading {
+  font-size: clamp(64px, 8vw, var(--text-xl));
+  letter-spacing: -0.05em;
+  line-height: 88%;
+  color: var(--black);
+}
+
+.movement-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.movement-desc {
+  color: var(--muted-gray);
+  max-width: 280px;
+  align-self: flex-end;
+}
+
+.movement-img {
+  /* width: 100%; */
+  height: auto;
+  object-fit: cover;
+}

@@ -10,6 +10,8 @@ import '@components/Menu.css'
 import Menu from '@components/Menu'
 import '@components/Experience.css'
 import Experience from '@components/Experience'
+import '@components/Movement.css'
+import Movement from '@components/Movement'
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
       <Impact />
       <Menu />
       <Experience />
+      <Movement />
     </main>
   )
 }
