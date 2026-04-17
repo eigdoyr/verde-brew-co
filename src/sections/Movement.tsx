@@ -1,3 +1,4 @@
+import '@sections/Movement.css'
 import movement1 from '@assets/movement/movement-1.webp'
 
 function Movement() {

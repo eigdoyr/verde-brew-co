@@ -1,3 +1,4 @@
+import '@sections/Hero.css'
 import heroBg from '@assets/hero/hero-bg.webp'
 
 function Hero() {

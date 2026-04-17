@@ -1,3 +1,5 @@
+import '@sections/About.css'
+
 function About() {
   return (
     <section className="about" id="about">

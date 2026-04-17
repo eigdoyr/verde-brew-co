@@ -1,3 +1,7 @@
+import menu1 from '@assets/menu/menu-1.webp'
+import menu2 from '@assets/menu/menu-2.webp'
+import menu3 from '@assets/menu/menu-3.webp'
+
 export interface MenuItem {
   id: number
   image: string
@@ -5,10 +9,6 @@ export interface MenuItem {
   price: string
   description: string
 }
-
-import menu1 from '@assets/menu/menu-1.webp'
-import menu2 from '@assets/menu/menu-2.webp'
-import menu3 from '@assets/menu/menu-3.webp'
 
 export const menuItems: MenuItem[] = [
   {

@@ -1,3 +1,4 @@
+import '@sections/Experience.css'
 import exp1 from '@assets/experience/experience-1.webp'
 import exp2 from '@assets/experience/experience-2.webp'
 

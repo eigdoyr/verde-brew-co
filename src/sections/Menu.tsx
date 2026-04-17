@@ -1,5 +1,6 @@
 import { menuItems } from '@/data/menuItems'
 import MenuCard from '@components/MenuCard'
+import '@sections/Menu.css'
 
 function Menu() {
   return (
