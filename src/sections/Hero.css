@@ -4,6 +4,7 @@
   height: 100vh;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 
@@ -34,5 +35,49 @@
   position: absolute;
   bottom: 2.5rem;
   left: 2.5rem;
+  right: 2.5rem;
   color: var(--white);
+  font-size: clamp(40px, 8vw, 128px);
+  letter-spacing: -0.05em;
+  line-height: 88%;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .hero-content {
+    max-width: 280px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero {
+    height: 100svh;
+    width: 100%;
+  }
+
+  .hero-content {
+    top: 5rem;
+    right: 1.25rem;
+    left: 1.25rem;
+    max-width: 100%;
+  }
+
+  .hero-tagline {
+    margin-top: 0;
+  }
+
+  .hero-headline {
+    font-size: clamp(36px, 11vw, 64px);
+    bottom: 2rem;
+    left: 1.25rem;
+    right: 1.25rem;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .hero-headline {
+    font-size: clamp(32px, 12vw, 52px);
+  }
 }
