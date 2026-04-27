@@ -4,7 +4,7 @@ import '@sections/Menu.css'
 
 function Menu() {
   return (
-    <section className="menu" id="menu">
+    <section className="menu section-padding" id="menu">
       <h2 className="text-l menu-heading">
         Sustainably Brewed. <br /> Thoughtfully Crafted
       </h2>

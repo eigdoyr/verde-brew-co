@@ -3,7 +3,7 @@ import movement1 from '@assets/movement/movement-1.webp'
 
 function Movement() {
   return (
-    <section className="movement" id="contact">
+    <section className="movement section-padding" id="contact">
       <div className="movement-content">
         <h2 className="text-xl movement-heading">Be Part of the Movement</h2>
 

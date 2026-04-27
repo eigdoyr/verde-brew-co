@@ -2,7 +2,7 @@ import '@sections/About.css'
 
 function About() {
   return (
-    <section className="about" id="about">
+    <section className="about section-padding" id="about">
       <p className="text-l about-label">
         A Coffee Shop Rooted in Sustainability
       </p>

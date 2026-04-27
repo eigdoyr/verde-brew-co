@@ -1,7 +1,6 @@
 .about {
   position: relative;
   background-color: var(--cream);
-  padding: 8rem 2.5rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

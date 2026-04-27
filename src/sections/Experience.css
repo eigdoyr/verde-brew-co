@@ -1,6 +1,5 @@
 .experience {
   background-color: var(--cream);
-  padding: 6rem 2.5rem;
 }
 
 .experience-heading {
@@ -35,12 +34,10 @@
 }
 
 .experience-desc {
-  position: absolute;
-  bottom: 0;
-  left: 58%;
-  width: 32%;
+  margin-top: 2rem;
+  max-width: 380px;
+  margin-left: auto;
   color: var(--black);
-  z-index: 2;
 }
 
 /* Tablet */
@@ -87,9 +84,8 @@
   }
 
   .experience-desc {
-    position: static;
-    width: 100%;
-    padding-top: 1rem;
+    max-width: 100%;
+    margin-left: 0;
   }
 }
 

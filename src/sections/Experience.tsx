@@ -4,7 +4,7 @@ import exp2 from '@assets/experience/experience-2.webp'
 
 function Experience() {
   return (
-    <section className="experience" id="experience">
+    <section className="experience section-padding" id="experience">
       <h2 className="text-l experience-heading">
         More Than Coffee. <br /> A Lifestyle
       </h2>
@@ -20,13 +20,14 @@ function Experience() {
           src={exp2}
           alt="Friends enjoying coffee"
         />
-        <p className="text-body experience-desc">
-          Step into Verde Brew Co. and experience a space designed to slow you
-          down. Natural light, recycled interiors, and community-centered events
-          make us more than just a coffee stop — we&apos;re a hub for conscious
-          living.
-        </p>
       </div>
+
+      <p className="text-body experience-desc">
+        Step into Verde Brew Co. and experience a space designed to slow you
+        down. Natural light, recycled interiors, and community-centered events
+        make us more than just a coffee stop — we&apos;re a hub for conscious
+        living.
+      </p>
     </section>
   )
 }
