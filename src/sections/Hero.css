@@ -19,6 +19,10 @@
   );
 }
 
+.hero-line {
+  display: block;
+}
+
 .hero-content {
   position: absolute;
   top: 2.5rem;
