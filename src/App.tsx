@@ -1,11 +1,12 @@
-import Navbar from '@components/Navbar'
-import Hero from '@sections/Hero'
-import About from '@sections/About'
-import Impact from '@sections/Impact'
-import Menu from '@sections/Menu'
-import Experience from '@sections/Experience'
-import Movement from '@sections/Movement'
-import Footer from '@components/Footer'
+import { Navbar, Footer } from '@components/index'
+import {
+  Hero,
+  About,
+  Impact,
+  Menu,
+  Experience,
+  Movement,
+} from '@sections/index'
 
 function App() {
   return (
