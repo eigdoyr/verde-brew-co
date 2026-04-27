@@ -32,6 +32,19 @@ function Footer() {
           <a href="#">X</a>
         </div>
       </div>
+      <div className="footer-bottom">
+        <p className="text-body">
+          Designed & Built by{' '}
+          <a
+            href="https://www.ryodgie.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-credit-link"
+          >
+            Ryodgie Barnatia
+          </a>
+        </p>
+      </div>
     </footer>
   )
 }
