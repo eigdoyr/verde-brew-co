@@ -61,3 +61,24 @@
 .footer-social a:hover {
   opacity: 0.7;
 }
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .footer {
+    padding: 3rem 1.25rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
