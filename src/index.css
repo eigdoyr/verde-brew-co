@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap');
 
 :root {
   /* Colors */
@@ -52,7 +52,7 @@ a {
 .text-xl {
   font-size: var(--text-xl);
   font-weight: 600;
-  letter-spacing: -8%;
+  letter-spacing: -0.08em;
   line-height: 88%;
 }
 

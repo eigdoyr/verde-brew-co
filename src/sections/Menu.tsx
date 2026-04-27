@@ -1,4 +1,4 @@
-import { menuItems } from '@/data/menuItems'
+import { menuItems } from '@data/menuItems'
 import MenuCard from '@components/MenuCard'
 import '@sections/Menu.css'
 
@@ -15,7 +15,7 @@ function Menu() {
 
         <div className="menu-text-block">
           <p className="text-body">
-            Whether it's a smooth oat-milk latte, a bold single-origin
+            Whether it&apos;s a smooth oat-milk latte, a bold single-origin
             pour-over, or a refreshing cold brew, our menu celebrates flavor
             without compromise
           </p>

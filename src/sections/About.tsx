@@ -12,8 +12,8 @@ function About() {
       <p className="text-body about-description">
         Verde Brew Co. was founded with a simple belief: coffee should taste
         good and do good. From compostable cups and zero-waste operations to
-        partnering with fair-trade farmers, we're shaping a coffee culture where
-        sustainability is the standard, not the exception.
+        partnering with fair-trade farmers, we&apos;re shaping a coffee culture
+        where sustainability is the standard, not the exception.
       </p>
     </section>
   )

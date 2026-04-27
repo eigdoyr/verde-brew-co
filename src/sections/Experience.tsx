@@ -23,7 +23,7 @@ function Experience() {
         <p className="text-body experience-desc">
           Step into Verde Brew Co. and experience a space designed to slow you
           down. Natural light, recycled interiors, and community-centered events
-          make us more than just a coffee stop — we're a hub for conscious
+          make us more than just a coffee stop — we&apos;re a hub for conscious
           living.
         </p>
       </div>

@@ -1,6 +1,8 @@
-import { MenuItem } from '@data/menuItems'
+import type { MenuItem } from '@data/menuItems'
 
-function MenuCard({ image, name, price, description }: MenuItem) {
+type MenuCardProps = Omit<MenuItem, 'id'>
+
+function MenuCard({ image, name, price, description }: MenuCardProps) {
   return (
     <div className="menu-item">
       <div className="menu-img-wrap">
