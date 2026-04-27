@@ -24,7 +24,7 @@
 .impact-body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 0 0 4rem;
+  padding: 0 2.5rem 4rem;
   gap: 2rem;
   align-items: start;
 }
