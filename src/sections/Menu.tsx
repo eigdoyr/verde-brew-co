@@ -1,12 +1,15 @@
 import '@sections/Menu.css'
 import { motion } from 'framer-motion'
+import { useBackgroundShift } from '@utils/useBackgroundShift'
 import { fadeUp, staggerContainer, staggerItem } from '@utils/animations'
 import { menuItems } from '@data/menuItems'
 import MenuCard from '@components/MenuCard'
 
 function Menu() {
+  const { ref } = useBackgroundShift('menu-active')
+
   return (
-    <section className="menu section-padding" id="menu">
+    <section className="menu section-padding" id="menu" ref={ref}>
       <motion.h2
         className="text-l menu-heading"
         variants={fadeUp}

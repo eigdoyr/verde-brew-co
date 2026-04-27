@@ -37,6 +37,11 @@ body {
   background-color: var(--cream);
   color: var(--black);
   -webkit-font-smoothing: antialiased;
+  transition: background-color 0.8s ease;
+}
+
+body.menu-active {
+  background-color: var(--light-olive);
 }
 
 img {
