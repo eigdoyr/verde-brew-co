@@ -28,6 +28,7 @@ function Experience() {
           viewport={{ once: true, amount: 0.3 }}
         />
         <motion.img
+          loading="lazy"
           className="experience-img-secondary"
           src={exp2}
           alt="Friends enjoying coffee"

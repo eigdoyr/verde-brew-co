@@ -17,24 +17,28 @@ function Impact() {
         viewport={{ once: true, amount: 0.3 }}
       >
         <motion.img
+          loading="lazy"
           variants={staggerItem}
           className="collage-img collage-img--1"
           src={impact1}
           alt="Ethically sourced coffee cherries"
         />
         <motion.img
+          loading="lazy"
           variants={staggerItem}
           className="collage-img collage-img--2"
           src={impact2}
           alt="Friends enjoying coffee"
         />
         <motion.img
+          loading="lazy"
           variants={staggerItem}
           className="collage-img collage-img--3"
           src={impact3}
           alt="Plastic-free cups"
         />
         <motion.img
+          loading="lazy"
           variants={staggerItem}
           className="collage-img collage-img--4"
           src={impact4}

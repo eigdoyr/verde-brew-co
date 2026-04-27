@@ -6,7 +6,7 @@ function MenuCard({ image, name, price, description }: MenuCardProps) {
   return (
     <div className="menu-item">
       <div className="menu-img-wrap">
-        <img src={image} alt={name} />
+        <img src={image} alt={name} loading="lazy" />
       </div>
       <div className="menu-info">
         <span className="text-body menu-name">{name}</span>

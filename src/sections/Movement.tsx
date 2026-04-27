@@ -31,6 +31,7 @@ function Movement() {
           </motion.p>
 
           <motion.img
+            loading="lazy"
             className="movement-img"
             src={movement1}
             alt="Community of coffee lovers"
