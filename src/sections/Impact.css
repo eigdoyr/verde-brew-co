@@ -1,6 +1,5 @@
 .impact {
   background-color: var(--cream);
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,9 +8,8 @@
 .impact-collage {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 270px;
   align-items: start;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
   overflow: hidden;
   width: 100%;
 }
@@ -68,4 +66,70 @@
 
 .impact-value p {
   color: var(--muted-gray);
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .impact {
+    min-height: auto;
+  }
+
+  .collage-img {
+    height: 200px;
+  }
+
+  .impact-body {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem 4rem;
+  }
+
+  .impact-heading {
+    grid-column: 1 / 3;
+  }
+
+  .impact-values {
+    grid-column: 1 / 3;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .impact {
+    min-height: auto;
+    justify-content: flex-start;
+  }
+
+  .impact-collage {
+    margin-bottom: 1rem;
+  }
+
+  .collage-img {
+    height: 25vw;
+  }
+
+  .impact-body {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1.25rem;
+    gap: 3rem;
+  }
+
+  .impact-heading {
+    order: 1;
+  }
+
+  .impact-values {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 0;
+  }
+
+  .impact-value:nth-child(1),
+  .impact-value:nth-child(2),
+  .impact-value:nth-child(3) {
+    grid-column: unset;
+    grid-row: unset;
+  }
 }
