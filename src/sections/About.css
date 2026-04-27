@@ -34,6 +34,11 @@
 
 /* Tablet */
 @media (max-width: 1024px) {
+  .about {
+    min-height: auto;
+    padding: 6rem 2.5rem;
+  }
+
   .about-wordmark {
     font-size: clamp(48px, 8vw, 96px);
   }
@@ -41,17 +46,25 @@
   .about-label {
     margin-left: 40%;
   }
+
+  .about-description {
+    position: static;
+    max-width: 100%;
+    margin-top: 2rem;
+    text-align: right;
+  }
 }
 
 /* Mobile */
 @media (max-width: 768px) {
   .about {
-    padding: 6rem 1.25rem;
+    padding: 4rem 1.25rem;
   }
 
   .about-label {
     margin-left: 0;
     align-self: flex-start;
+    font-size: var(--text-m);
   }
 
   .about-wordmark {
