@@ -1,4 +1,6 @@
 import '@sections/Impact.css'
+import { motion } from 'framer-motion'
+import { fadeUp, staggerContainer, staggerItem } from '@utils/animations'
 import impact1 from '@assets/impact/impact-1.webp'
 import impact2 from '@assets/impact/impact-2.webp'
 import impact3 from '@assets/impact/impact-3.webp'
@@ -7,59 +9,81 @@ import impact4 from '@assets/impact/impact-4.webp'
 function Impact() {
   return (
     <section className="impact" id="impact">
-      <div className="impact-collage">
-        <img
+      <motion.div
+        className="impact-collage"
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.3 }}
+      >
+        <motion.img
+          variants={staggerItem}
           className="collage-img collage-img--1"
           src={impact1}
           alt="Ethically sourced coffee cherries"
         />
-        <img
+        <motion.img
+          variants={staggerItem}
           className="collage-img collage-img--2"
           src={impact2}
           alt="Friends enjoying coffee"
         />
-        <img
+        <motion.img
+          variants={staggerItem}
           className="collage-img collage-img--3"
           src={impact3}
           alt="Plastic-free cups"
         />
-        <img
+        <motion.img
+          variants={staggerItem}
           className="collage-img collage-img--4"
           src={impact4}
           alt="Community gardening"
         />
-      </div>
+      </motion.div>
 
       <div className="impact-body">
-        <h2 className="text-l impact-heading">
+        <motion.h2
+          className="text-l impact-heading"
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.3 }}
+        >
           Every Sip Makes <br /> a Difference.
-        </h2>
+        </motion.h2>
 
-        <div className="impact-values">
-          <div className="impact-value">
+        <motion.div
+          className="impact-values"
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.3 }}
+        >
+          <motion.div variants={staggerItem} className="impact-value">
             <h3 className="text-m">Ethically Sourced Beans</h3>
             <p className="text-body">
               We partner directly with farmers who practice fair trade and
               organic cultivation.
             </p>
-          </div>
+          </motion.div>
 
-          <div className="impact-value">
+          <motion.div variants={staggerItem} className="impact-value">
             <h3 className="text-m">Eco-Friendly Materials</h3>
             <p className="text-body">
               100% compostable packaging, reusable options, and plastic-free
               operations.
             </p>
-          </div>
+          </motion.div>
 
-          <div className="impact-value">
-            <h3 className="text-m">Community & Impact</h3>
+          <motion.div variants={staggerItem} className="impact-value">
+            <h3 className="text-m">Community &amp; Impact</h3>
             <p className="text-body">
               Supporting local sustainability projects and giving back with
               every purchase.
             </p>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
     </section>
   )
