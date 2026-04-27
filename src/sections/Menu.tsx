@@ -6,7 +6,7 @@ import { menuItems } from '@data/menuItems'
 import MenuCard from '@components/MenuCard'
 
 function Menu() {
-  const { ref } = useBackgroundShift('menu-active')
+  const { ref } = useBackgroundShift('menu-active', 0.2)
 
   return (
     <section className="menu section-padding" id="menu" ref={ref}>
