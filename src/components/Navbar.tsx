@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+import { motion } from 'framer-motion'
+import { fadeIn } from '@utils/animations'
 import './Navbar.css'
 
 function Navbar() {
@@ -23,7 +25,12 @@ function Navbar() {
   const handleLinkClick = () => setIsOpen(false)
 
   return (
-    <nav className={`navbar ${isDark ? 'navbar--dark' : 'navbar--light'}`}>
+    <motion.nav
+      className={`navbar ${isDark ? 'navbar--dark' : 'navbar--light'}`}
+      variants={fadeIn}
+      initial="hidden"
+      animate="visible"
+    >
       <a href="#hero" className="navbar-logo">
         Verde Brew Co.
       </a>
@@ -60,7 +67,7 @@ function Navbar() {
         <span />
         <span />
       </button>
-    </nav>
+    </motion.nav>
   )
 }
 
