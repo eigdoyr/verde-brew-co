@@ -21,7 +21,8 @@
       "@sections/*": ["src/sections/*"],
       "@components/*": ["src/components/*"],
       "@assets/*": ["src/assets/*"],
-      "@data/*": ["src/data/*"]
+      "@data/*": ["src/data/*"],
+      "@utils/*": ["src/utils/*"]
     }
   },
   "include": ["src"],
